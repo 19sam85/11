@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "d86ff543-75cd-46c2-8edf-6baa271977e0",
+		"name": "Swapi.dev Planets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26230856",
+		"_collection_link": "https://solar-crescent-139667.postman.co/workspace/Team-Workspace~332d0e92-d41c-4b73-8917-261aecd3ed13/collection/26230856-d86ff543-75cd-46c2-8edf-6baa271977e0?action=share&creator=26230856&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Получение всей информации о планете",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets/:id/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets",
+						":id",
+						""
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение информации обо всех планетах",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение схемы JSON для этого ресурса",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets/schema/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets",
+						"schema",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
